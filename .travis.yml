@@ -18,7 +18,7 @@ cache:
 #     - buildout-development@googlegroups.com
 
 install:
-    - ls -al pythons
+    - ls -altr pythons
     - deactivate
     - make build
 
